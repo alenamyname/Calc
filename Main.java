@@ -69,7 +69,7 @@ public class Main {
         }
         else
         {
-            switch(example[1]) // DRY omitted
+            switch(example[1])
             {
                 case "+":
                     result = Integer.toString(digitsAr[0] + digitsAr[1]);
