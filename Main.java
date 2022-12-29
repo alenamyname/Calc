@@ -16,7 +16,7 @@ public class Main {
         String example[] = input.split(" ");
         if (example.length > 3)
             throw new IOException();
-        if (example.length < 2 )
+        if (example.length <= 2 )
             throw new IOException();
 
         String[] roman = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
